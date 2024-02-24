@@ -1,0 +1,22 @@
+{
+  "extends": [
+    "development"
+  ],
+  "hints": {
+    "axe/name-role-value": [
+      "default",
+      {
+        "link-name": "off"
+      }
+    ],
+    "axe/parsing": "off",
+    "compat-api/css": [
+      "default",
+      {
+        "ignore": [
+          "-webkit-overflow-scrolling"
+        ]
+      }
+    ]
+  }
+}
